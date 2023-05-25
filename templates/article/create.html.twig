@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+    <h1>Créer un nouvel article</h1>
+
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatingInput" placeholder="?Nom Article">
+        <label for="floatingInput">Nom Article</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="floatingPassword" placeholder="Contenu">
+        <label for="floatingPassword">Contenu</label>
+      </div>
+
+        <button type="submit" class="btn btn-primary">Créer</button>
+{% endblock %}
